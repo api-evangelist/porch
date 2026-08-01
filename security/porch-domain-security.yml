@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: porch.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct 15 04:55:33 2026 GMT
+  hsts: null
+domains:
+- domain: porch.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine

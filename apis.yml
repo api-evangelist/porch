@@ -1,7 +1,18 @@
 aid: porch
 name: Porch
-description: Porch is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Porch Group is a home services and home insurance platform operating across
+  the full lifecycle of the home. Trading on Nasdaq as PRCH, the company
+  combines a vertical software business for home inspectors, moving companies,
+  title and mortgage providers, and contractors with a consumer-facing home
+  insurance carrier (Porch Insurance Reciprocal Exchange), home warranty, and a
+  moving-concierge app that helps homeowners set up utilities, security, and
+  services. Porch reaches a large share of U.S. homebuyers each year through its
+  inspection-software network, using that unique early-in-the-home-lifecycle data
+  to power insurance, warranty, and moving offerings. This profile was seeded as a
+  Battery Ventures portfolio lead and enriched by the API Evangelist pipeline;
+  Porch publishes no public developer API, but it does operate a responsible
+  disclosure program and RFC 9116 security.txt.
 url: https://raw.githubusercontent.com/api-evangelist/porch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,53 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Home Services
+- Insurance
+- InsurTech
+- PropTech
+- Home Warranty
+- Moving
+- Real Estate
+image: https://porch.com/favicon.ico
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/porch-vulnerability-disclosure.yml
+- type: Security
+  url: https://porch.com/responsible-disclosure
+- type: DomainSecurity
+  url: security/porch-domain-security.yml
+- type: WellKnown
+  url: well-known/porch-well-known.yml
+- type: Website
+  url: https://porch.com
+- type: CompanyWebsite
+  url: https://porchgroup.com
+- type: SecurityTxt
+  url: well-known/porch-security.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
