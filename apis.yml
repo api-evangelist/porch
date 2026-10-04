@@ -53,7 +53,7 @@ tags:
 - PropTech
 - Home Warranty
 - Moving
-- Real-Estate
+- Real Estate
 tags_raw:
 - Company
 - Home Services
@@ -63,6 +63,7 @@ tags_raw:
 - Home Warranty
 - Moving
 - Real Estate
+- Real-Estate
 image: https://porch.com/favicon.ico
 apis: []
 common:
